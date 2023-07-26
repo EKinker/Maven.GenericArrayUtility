@@ -1,6 +1,7 @@
 package com.zipcodewilmington.arrayutility;
 
-import com.zipcodewilmington.UnitTestingUtils;
+//import com.zipcodewilmington.UnitTestingUtils;
+
 import org.junit.Test;
 
 /**
@@ -56,7 +57,6 @@ public class RemoveValueTest {
         // Then
         UnitTestingUtils.assertArrayEquality(expected, actual);
     }
-
 
 
     @Test
